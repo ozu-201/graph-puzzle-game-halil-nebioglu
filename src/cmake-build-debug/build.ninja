@@ -217,6 +217,183 @@ build graph-puzzle-game-halil-nebioglu.exe: CXX_EXECUTABLE_LINKER__graph-puzzle-
   TARGET_IMPLIB = libgraph-puzzle-game-halil-nebioglu.dll.a
   TARGET_PDB = graph-puzzle-game-halil-nebioglu.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target graph-puzzle-game-halil-nebioglu-TURKISH
+
+
+#############################################
+# Order-only phony target for graph-puzzle-game-halil-nebioglu-TURKISH
+
+build cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH: phony || CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/List/Node.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/List/Node.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\List\Node.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\List
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/List/LinkedList.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/List/LinkedList.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\List\LinkedList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\List
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Element.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/Array/Element.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Element.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Stack.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/Array/Stack.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Stack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/List/Stack.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/List/Stack.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\List\Stack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\List
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Queue.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/Array/Queue.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Queue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/List/Queue.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/List/Queue.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\List\Queue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\List
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Hash.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/Array/Hash.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Hash.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/List/Hash.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/List/Hash.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\List\Hash.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\List
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Heap/Heap.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/Array/Heap/Heap.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Heap\Heap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Heap
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Heap/HeapNode.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/Array/Heap/HeapNode.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Heap\HeapNode.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Heap
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Heap/DHeap.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/Array/Heap/DHeap.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Heap\DHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Heap
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Set.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/Array/Set.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Set.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/DisjointSet.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/Array/DisjointSet.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\DisjointSet.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Graph/Graph.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/Array/Graph/Graph.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Graph\Graph.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Graph
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/List/Graph/Edge.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/List/Graph/Edge.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\List\Graph\Edge.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\List\Graph
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/List/Graph/EdgeList.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/List/Graph/EdgeList.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\List\Graph\EdgeList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\List\Graph
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/List/Graph/Graph.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/List/Graph/Graph.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\List\Graph\Graph.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\List\Graph
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/General/Path.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/General/Path.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\General\Path.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\General
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/General/AbstractGraph.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/General/AbstractGraph.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\General\AbstractGraph.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\General
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Heap/MaxHeap.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/Array/Heap/MaxHeap.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Heap\MaxHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Heap
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Heap/MaxDHeap.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/Array/Heap/MaxDHeap.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Heap\MaxDHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Heap
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Heap/MinHeap.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/Array/Heap/MinHeap.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Heap\MinHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Heap
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Heap/MinDHeap.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/Array/Heap/MinDHeap.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Heap\MinDHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\Array\Heap
+
+build CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/mainTR.cpp.obj: CXX_COMPILER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug C$:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/mainTR.cpp || cmake_object_order_depends_target_graph-puzzle-game-halil-nebioglu-TURKISH
+  DEP_FILE = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir\mainTR.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target graph-puzzle-game-halil-nebioglu-TURKISH
+
+
+#############################################
+# Link the executable graph-puzzle-game-halil-nebioglu-TURKISH.exe
+
+build graph-puzzle-game-halil-nebioglu-TURKISH.exe: CXX_EXECUTABLE_LINKER__graph-puzzle-game-halil-nebioglu-TURKISH_Debug CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/List/Node.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/List/LinkedList.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Element.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Stack.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/List/Stack.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Queue.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/List/Queue.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Hash.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/List/Hash.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Heap/Heap.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Heap/HeapNode.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Heap/DHeap.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Set.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/DisjointSet.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Graph/Graph.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/List/Graph/Edge.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/List/Graph/EdgeList.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/List/Graph/Graph.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/General/Path.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/General/AbstractGraph.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Heap/MaxHeap.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Heap/MaxDHeap.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Heap/MinHeap.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/Array/Heap/MinDHeap.cpp.obj CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir/mainTR.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\graph-puzzle-game-halil-nebioglu-TURKISH.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = graph-puzzle-game-halil-nebioglu-TURKISH.exe
+  TARGET_IMPLIB = libgraph-puzzle-game-halil-nebioglu-TURKISH.dll.a
+  TARGET_PDB = graph-puzzle-game-halil-nebioglu-TURKISH.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -245,6 +422,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build graph-puzzle-game-halil-nebioglu: phony graph-puzzle-game-halil-nebioglu.exe
 
+build graph-puzzle-game-halil-nebioglu-TURKISH: phony graph-puzzle-game-halil-nebioglu-TURKISH.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -253,7 +432,7 @@ build graph-puzzle-game-halil-nebioglu: phony graph-puzzle-game-halil-nebioglu.e
 #############################################
 # Folder: C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/cmake-build-debug
 
-build all: phony graph-puzzle-game-halil-nebioglu.exe
+build all: phony graph-puzzle-game-halil-nebioglu.exe graph-puzzle-game-halil-nebioglu-TURKISH.exe
 
 # =============================================================================
 # Built-in targets

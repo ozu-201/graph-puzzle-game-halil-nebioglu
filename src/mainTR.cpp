@@ -18,7 +18,7 @@ int main(){
 
 
     // Open the file
-    ifstream dictionaryFile("../english-dictionary.txt");
+    ifstream dictionaryFile("../turkish-dictionary.txt");
     if (!dictionaryFile.is_open()) {
         cerr << "Error opening the file!" << endl;
         return 1;
@@ -75,26 +75,6 @@ int main(){
 //    }
 //    cout << endl;
 
-
-    //Save words
-    ofstream words3LettersTxt("../3Letters.txt");
-    for(string str:words3Letters){
-        words3LettersTxt<<str<<endl;
-    }
-    words3LettersTxt.close();
-
-    ofstream words4LettersTxt("../4Letters.txt");
-    for(string str:words4Letters){
-        words4LettersTxt<<str<<endl;
-    }
-    words4LettersTxt.close();
-
-    ofstream words5LettersTxt("../5Letters.txt");
-    for(string str:words5Letters){
-        words5LettersTxt<<str<<endl;
-    }
-    words5LettersTxt.close();
-
     list::Graph letter_3s = list::Graph(no_3letters);
     list::Graph letter_4s = list::Graph(no_4letters);
     list::Graph letter_5s = list::Graph(no_5letters);
@@ -104,30 +84,10 @@ int main(){
     letter_4s.addFromVector(words4Letters);
     letter_5s.addFromVector(words5Letters);
 
-
-    int testCases=3;
-    string testWords1[]={"cat","dark","stone"};
-    string testWords2[]={"dog","barn","score"};
-    list::Graph testGraphs[]={letter_3s,letter_4s,letter_5s};
-
-    for (int i = 0; i < testCases; ++i) {
-        string testResult, word1, word2;
-        word1=testWords1[i];
-        word2=testWords2[i];
-        cout<<"-------------------------"<<endl;
-        cout << "||Test Case: Adding Edges with One-Letter Difference ("<<word1.length()<<" letter words)" << endl;
-        cout << "||Shortest Path from '"<< word1 <<"' to '"<<word2<<"' by BFS:" << endl;
-        testResult=testGraphs[i].BFSearch(word1,word2);
-        cout<<"||"<<testResult<<"||"<<endl;
-        cout << "||Shortest Path from '"<< word1 <<"' to '"<<word2<<"' by Dijkstra:" << endl;
-        testResult=testGraphs[i].DijkstraSearch(word1,word2);
-        cout<<"||"<<testResult<<endl;
-    }
-
     cout<<endl<<endl<<endl<<endl<<"Extra test cases"<<endl<<endl<<endl<<endl;
     int extraCases=3;
-    string extraWords1[]={"bat","adam","hello"};
-    string extraWords2[]={"mom","news","picky"};
+    string extraWords1[]={"fas","adil","bursa"};
+    string extraWords2[]={"oje","tane","zorlu"};
     list::Graph extraGraphs[]={letter_3s,letter_4s,letter_5s};
 
     for (int i = 0; i < extraCases; ++i) {

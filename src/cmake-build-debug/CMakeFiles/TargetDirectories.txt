@@ -1,3 +1,4 @@
 C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/cmake-build-debug/CMakeFiles/graph-puzzle-game-halil-nebioglu.dir
+C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/cmake-build-debug/CMakeFiles/graph-puzzle-game-halil-nebioglu-TURKISH.dir
 C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
