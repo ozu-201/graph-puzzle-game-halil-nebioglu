@@ -18,7 +18,7 @@ protected:
     virtual void percolateUp(int no) = 0;
 public:
     explicit Heap(int N);
-    ~Heap();
+    //~Heap(); //This makes the process tooo long
     bool isEmpty() const;
     bool isFull() const;
     HeapNode deleteTop();

@@ -4,6 +4,8 @@
 
 #include "Edge.h"
 
+#include <utility>
+
 Edge::Edge(int from, int to, int weight) {
     this->from = from;
     this->to = to;
@@ -29,6 +31,14 @@ int Edge::getTo() const{
 
 int Edge::getWeight() const{
     return weight;
+}
+
+std::string Edge::getWord() const {
+    return word;
+}
+
+void Edge::setWord(std::string word1){
+    this->word=std::move(word1);
 }
 
 Edge::Edge() {

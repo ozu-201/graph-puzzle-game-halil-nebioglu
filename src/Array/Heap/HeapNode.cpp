@@ -2,6 +2,7 @@
 // Created by Olcay Taner YILDIZ on 24.04.2023.
 //
 
+#include <iostream>
 #include "HeapNode.h"
 
 HeapNode::HeapNode(int data, int name) {
@@ -20,6 +21,11 @@ int HeapNode::getName() const{
 HeapNode::HeapNode() {
 
 }
+
+HeapNode::~HeapNode() {
+
+}
+
 
 void HeapNode::setData(int _data) {
     this->data = _data;

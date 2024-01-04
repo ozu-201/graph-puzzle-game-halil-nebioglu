@@ -13,6 +13,7 @@ private:
 public:
     HeapNode(int data, int name);
     HeapNode();
+    ~HeapNode();
     int getData() const;
     int getName() const;
     void setData(int _data);

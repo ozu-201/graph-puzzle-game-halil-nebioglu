@@ -46,3 +46,12 @@ void EdgeList::insert(Edge *newEdge) {
 Edge *EdgeList::getHead() {
     return head;
 }
+
+const std::string &EdgeList::getWord() const {
+    return word;
+}
+
+
+void EdgeList::setWord(const std::string &word1) {
+    EdgeList::word = word1;
+}

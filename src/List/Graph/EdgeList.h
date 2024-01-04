@@ -12,7 +12,10 @@ class EdgeList {
 private:
     Edge* head;
     Edge* tail;
+    std::string word;
 public:
+    [[nodiscard]] const std::string &getWord() const;
+    void setWord(const std::string &word1);
     EdgeList();
     ~EdgeList();
     bool isEmpty() const;

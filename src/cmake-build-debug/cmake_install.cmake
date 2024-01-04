@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/TEMP/CLionProjects/graph-puzzle-game-halil-nebioglu/src
+# Install script for directory: C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/DataStructures_CPP")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/graph-puzzle-game-halil-nebioglu")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/TEMP/CLionProjects/graph-puzzle-game-halil-nebioglu/src/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-halil-nebioglu/src/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

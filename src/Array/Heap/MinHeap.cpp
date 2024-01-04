@@ -2,6 +2,7 @@
 // Created by Olcay Taner YILDIZ on 18.05.2023.
 //
 
+#include <iostream>
 #include "MinHeap.h"
 
 void MinHeap::percolateDown(int no) {

@@ -1,4 +1,3 @@
-//
 // Created by Olcay Taner YILDIZ on 15.05.2023.
 //
 
@@ -10,6 +9,9 @@ class Path {
 private:
     int distance;
     int previous;
+public:
+    int getPrevious() const;
+
 public:
     Path(int distance, int previous);
     Path() = default;

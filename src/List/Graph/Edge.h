@@ -6,11 +6,14 @@
 #define DATASTRUCTURES_CPP_EDGE_H
 
 
+#include <string>
+
 class Edge {
 private:
     int from;
     int to;
     int weight;
+    std::string word;
     Edge* next;
 public:
     Edge();
@@ -20,6 +23,8 @@ public:
     int getFrom() const;
     int getTo() const;
     int getWeight() const;
+    std::string getWord() const;
+    void setWord(std::string word1);
 };
 
 
